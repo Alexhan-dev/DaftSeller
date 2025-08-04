@@ -1,0 +1,5 @@
+name: DaftSeller
+version: 1.0.0
+description: "DaftSeller"
+main: wtf.alexhanwow.Main
+api-version: 0.54.1

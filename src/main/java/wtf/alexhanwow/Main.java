@@ -58,8 +58,12 @@ public class Main extends BasePlugin {
             }
         }).register(this);
 
-        //
-
+        //根据许可证中的文字所写，你不可以更改，删除，等使下面的代码与原代码不符(源代码：https://github.com/Alexhan-dev/DaftSeller)。
+        //According to the text in the license, you must not modify, delete, or otherwise alter the code below in a way
+        // that makes it inconsistent with the original source code (source code: https://github.com/Alexhan-dev/DaftSeller).
+        new JKookCommand("copyright","/").executesUser((sender,arguments,messages)->{
+            messages.reply("DaftSeller Kook bot Engine Made by AlexhanWOW ©2025 AlexhanWOW");
+        }).register(this);
 
         //用户查询指令
         new JKookCommand("list", "/").executesUser((sender, arguments, messages) -> {
